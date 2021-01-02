@@ -1,7 +1,7 @@
 import random
 
 def guessing_game():
-	num = random.randint(1, 101)
+	num = random.randint(1, 100)
 	while True:
 		i = int(input("Guess a number between one and one hundred:\n"))
 		if i == num:
